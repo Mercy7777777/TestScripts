@@ -11,7 +11,9 @@ ET.register_namespace(
 namespace = "{http://maven.apache.org/POM/4.0.0}"
 
 projects = [# "https://github.com/devopshydclub/vprofile-project",
-"https://github.com/mrniko/netty-socketio"]
+"https://github.com/ronmamo/reflections", 
+"https://github.com/VerbalExpressions/JavaVerbalExpressions",
+"https://github.com/spdx/tools"]
 
 for project in projects:
     os.system("git clone " + project + ".git")
