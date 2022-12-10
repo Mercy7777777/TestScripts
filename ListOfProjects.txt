@@ -1,7 +1,7 @@
 https://github.com/TheAlgorithms/Java
-https://github.com/devopshydclub/vprofile-project
-https://github.com/mrniko/netty-socketio
 https://github.com/TooTallNate/Java-WebSocket
 https://github.com/ronmamo/reflections
 https://github.com/VerbalExpressions/JavaVerbalExpressions
 https://github.com/spdx/tools
+https://github.com/RameshMF/java-io-guide
+https://github.com/byhieg/JavaTutorial
