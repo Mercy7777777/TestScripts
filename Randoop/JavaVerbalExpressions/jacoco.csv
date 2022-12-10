@@ -1,0 +1,4 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JavaVerbalExpressions,ru.lanwen.verbalregex,VerbalExpression.Builder,11,624,2,39,1,116,2,73,0,54
+JavaVerbalExpressions,ru.lanwen.verbalregex,VerbalExpression,11,134,5,9,4,37,4,13,0,10
+JavaVerbalExpressions,ru.lanwen.verbalregex,VerbalExpression.Builder.new HashMap() {...},0,52,0,0,0,9,0,1,0,1

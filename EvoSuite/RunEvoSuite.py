@@ -10,10 +10,11 @@ ET.register_namespace(
 )
 namespace = "{http://maven.apache.org/POM/4.0.0}"
 
-projects = [# "https://github.com/devopshydclub/vprofile-project",
-"https://github.com/ronmamo/reflections", 
-"https://github.com/VerbalExpressions/JavaVerbalExpressions",
-"https://github.com/spdx/tools"]
+projects = ["https://github.com/byhieg/JavaTutorial"]
+    # "https://github.com/devopshydclub/vprofile-project",
+#"https://github.com/ronmamo/reflections", 
+#"https://github.com/VerbalExpressions/JavaVerbalExpressions",
+#"https://github.com/spdx/tools"]
 
 for project in projects:
     os.system("git clone " + project + ".git")
@@ -64,6 +65,37 @@ for project in projects:
                 </plugin>"
     )
     plugins.append(newPlugin)
+    jacocoPlugin = ET.fromstring(
+      "<plugin>\
+        <groupId>org.jacoco</groupId>\
+        <artifactId>jacoco-maven-plugin</artifactId>\
+        <version>0.8.0</version>\
+        <executions>\
+          <execution>\
+            <id>pre-unit-test</id>\
+            <goals>\
+              <goal>prepare-agent</goal>\
+            </goals>\
+            <configuration>\
+              <destFile>${project.build.directory}/coverage-reports/jacoco-ut.exec</destFile>\
+              <propertyName>surefireArgLine</propertyName>\
+            </configuration>\
+          </execution>\
+          <execution>\
+            <id>post-unit-test</id>\
+            <phase>test</phase>\
+            <goals>\
+              <goal>report</goal>\
+            </goals>\
+            <configuration>\
+              <dataFile>${project.build.directory}/coverage-reports/jacoco-ut.exec</dataFile>\
+              <outputDirectory>${project.reporting.outputDirectory}/jacoco-ut</outputDirectory>\
+            </configuration>\
+          </execution>\
+        </executions>\
+      </plugin>"
+    )
+    plugins.append(jacocoPlugin)
 
     # add <pluginRepositories>
     pluginRepositories = root.find(namespace + "pluginRepositories")
@@ -79,13 +111,13 @@ for project in projects:
     pluginRepositories.append(pluginRepository)
 
     doc.write("pom.xml", encoding="UTF-8", xml_declaration=True)
-
+"""
     os.system('echo "******begin downloading dependencies******"')
     os.system("mvn evosuite:help")
 
     os.system('echo "******begin evosuite generating******"')
     os.system("mvn evosuite:generate")
-
+"""
 #    os.system('echo "******information of generated tests by EvoSuite******"')
 #    os.system("mvn evosuite:info")
 
@@ -95,4 +127,4 @@ for project in projects:
 #    os.system('echo "******run mvn tests******"')
 #    os.system("mvn test")
 
-    os.chdir("..")
+#     os.chdir("..")

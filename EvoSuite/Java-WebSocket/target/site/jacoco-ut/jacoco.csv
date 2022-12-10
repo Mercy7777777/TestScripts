@@ -1,0 +1,61 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Java-WebSocket,org.java_websocket,AbstractWrappedByteChannel,97,0,16,0,22,0,19,0,11,0
+Java-WebSocket,org.java_websocket,WebSocketImpl,544,981,71,105,129,262,63,82,8,49
+Java-WebSocket,org.java_websocket,AbstractWebSocket,22,231,5,19,6,67,5,19,0,12
+Java-WebSocket,org.java_websocket,WebSocketAdapter,0,29,0,2,0,10,0,8,0,7
+Java-WebSocket,org.java_websocket,SSLSocketChannel.new Object() {...},72,0,0,0,2,0,1,0,1,0
+Java-WebSocket,org.java_websocket,SSLSocketChannel2,245,571,56,84,59,140,57,42,9,20
+Java-WebSocket,org.java_websocket,AbstractWebSocket.new Runnable() {...},1,63,0,2,1,13,0,3,0,2
+Java-WebSocket,org.java_websocket,SocketChannelIOHelper,31,95,8,24,11,24,9,11,2,2
+Java-WebSocket,org.java_websocket,SSLSocketChannel,666,0,80,0,173,0,66,0,18,0
+Java-WebSocket,org.java_websocket.exceptions,IncompleteHandshakeException,0,15,0,0,0,7,0,3,0,3
+Java-WebSocket,org.java_websocket.exceptions,InvalidDataException,0,31,0,0,0,13,0,5,0,5
+Java-WebSocket,org.java_websocket.exceptions,LimitExceededException,0,27,0,0,0,11,0,5,0,5
+Java-WebSocket,org.java_websocket.exceptions,InvalidHandshakeException,0,20,0,0,0,8,0,4,0,4
+Java-WebSocket,org.java_websocket.exceptions,InvalidEncodingException,0,15,0,2,0,6,0,3,0,2
+Java-WebSocket,org.java_websocket.exceptions,WrappedIOException,0,15,0,0,0,6,0,3,0,3
+Java-WebSocket,org.java_websocket.exceptions,IncompleteException,0,9,0,0,0,4,0,2,0,2
+Java-WebSocket,org.java_websocket.exceptions,WebsocketNotConnectedException,0,3,0,0,0,1,0,1,0,1
+Java-WebSocket,org.java_websocket.exceptions,NotSendableException,0,13,0,0,0,6,0,3,0,3
+Java-WebSocket,org.java_websocket.exceptions,InvalidFrameException,0,20,0,0,0,8,0,4,0,4
+Java-WebSocket,org.java_websocket.extensions,DefaultExtension,0,73,0,12,0,17,0,19,0,13
+Java-WebSocket,org.java_websocket.extensions,ExtensionRequestData,58,36,13,1,10,10,7,4,0,4
+Java-WebSocket,org.java_websocket.extensions,CompressionExtension,0,71,0,14,0,11,0,9,0,2
+Java-WebSocket,org.java_websocket.framing,PongFrame,0,12,0,0,0,5,0,2,0,2
+Java-WebSocket,org.java_websocket.framing,ContinuousFrame,0,4,0,0,0,2,0,1,0,1
+Java-WebSocket,org.java_websocket.framing,TextFrame,0,17,0,2,0,6,0,3,0,2
+Java-WebSocket,org.java_websocket.framing,PingFrame,0,4,0,0,0,2,0,1,0,1
+Java-WebSocket,org.java_websocket.framing,ControlFrame,0,37,0,8,0,11,0,6,0,2
+Java-WebSocket,org.java_websocket.framing,BinaryFrame,0,4,0,0,0,2,0,1,0,1
+Java-WebSocket,org.java_websocket.framing,CloseFrame,102,241,26,26,22,60,19,20,2,11
+Java-WebSocket,org.java_websocket.framing,FramedataImpl1,125,282,28,21,22,68,22,24,1,18
+Java-WebSocket,org.java_websocket.framing,FramedataImpl1.new Object() {...},6,41,0,0,0,1,0,1,0,1
+Java-WebSocket,org.java_websocket.framing,DataFrame,0,5,0,0,0,3,0,2,0,2
+Java-WebSocket,org.java_websocket.util,ByteBufferUtils,0,40,0,6,0,12,0,5,0,2
+Java-WebSocket,org.java_websocket.util,Charsetfunctions,11,1697,0,6,3,24,1,11,1,8
+Java-WebSocket,org.java_websocket.util,Base64,280,4315,27,47,39,93,19,28,1,8
+Java-WebSocket,org.java_websocket.util,NamedThreadFactory,0,36,0,0,0,8,0,2,0,2
+Java-WebSocket,org.java_websocket.util,Base64.OutputStream,96,152,16,14,18,35,13,8,1,5
+Java-WebSocket,org.java_websocket.protocols,Protocol,0,100,0,14,0,25,0,15,0,8
+Java-WebSocket,org.java_websocket.client,WebSocketClient,265,708,35,59,71,194,46,70,20,49
+Java-WebSocket,org.java_websocket.client,WebSocketClient.new DnsResolver() {...},0,10,0,0,0,2,0,2,0,2
+Java-WebSocket,org.java_websocket.client,WebSocketClient.WebsocketWriteThread,25,82,1,5,5,24,1,6,0,4
+Java-WebSocket,org.java_websocket.extensions.permessage_deflate,PerMessageDeflateExtension,49,420,19,39,12,98,19,33,1,22
+Java-WebSocket,org.java_websocket.drafts,Draft,112,454,19,45,21,106,21,29,2,16
+Java-WebSocket,org.java_websocket.drafts,Draft_6455,325,1889,70,217,68,458,67,133,2,51
+Java-WebSocket,org.java_websocket.drafts,Draft_6455.TranslatedPayloadMetaData,0,18,0,0,0,6,0,3,0,3
+Java-WebSocket,org.java_websocket.handshake,HandshakedataImpl1,4,42,0,2,2,12,1,7,1,6
+Java-WebSocket,org.java_websocket.handshake,HandshakeImpl1Server,3,14,0,0,1,6,1,4,1,4
+Java-WebSocket,org.java_websocket.handshake,HandshakeImpl1Client,5,15,1,1,1,6,1,3,0,3
+Java-WebSocket,org.java_websocket.enums,ReadyState,0,49,0,0,0,2,0,2,0,2
+Java-WebSocket,org.java_websocket.enums,CloseHandshakeType,0,39,0,0,0,2,0,2,0,2
+Java-WebSocket,org.java_websocket.enums,HandshakeState,0,29,0,0,0,3,0,2,0,2
+Java-WebSocket,org.java_websocket.enums,Role,0,29,0,0,0,2,0,2,0,2
+Java-WebSocket,org.java_websocket.enums,Opcode,0,69,0,0,0,2,0,2,0,2
+Java-WebSocket,org.java_websocket.server,WebSocketServer.WebSocketWorker,36,95,5,3,8,26,4,5,0,5
+Java-WebSocket,org.java_websocket.server,SSLParametersWebSocketServerFactory,9,31,0,2,1,10,0,4,0,3
+Java-WebSocket,org.java_websocket.server,WebSocketServer.WebSocketWorker.new Thread.UncaughtExceptionHandler() {...},10,9,0,0,2,1,1,1,1,1
+Java-WebSocket,org.java_websocket.server,DefaultWebSocketServerFactory,0,18,0,0,0,5,0,5,0,5
+Java-WebSocket,org.java_websocket.server,WebSocketServer,213,1079,38,122,65,305,37,103,5,55
+Java-WebSocket,org.java_websocket.server,CustomSSLWebSocketServerFactory,9,39,0,4,1,12,0,5,0,3
+Java-WebSocket,org.java_websocket.server,DefaultSSLWebSocketServerFactory,0,73,0,4,0,18,0,8,0,6
